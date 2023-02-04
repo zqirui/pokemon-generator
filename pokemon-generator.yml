@@ -234,6 +234,18 @@ dependencies:
   - zlib=1.2.13=h8cc25b3_0
   - zstd=1.5.2=h19a0ad4_0
   - pip:
+    - aiohttp==3.8.3
+    - aiosignal==1.3.1
+    - async-timeout==4.0.2
+    - frozenlist==1.3.3
+    - fsspec==2023.1.0
+    - lightning-utilities==0.6.0.post0
+    - multidict==6.0.4
+    - pytorch-lightning==1.9.0
+    - pytorch-lightning-bolts==0.3.2.post1
     - torchaudio==0.13.1
+    - torchmetrics==0.11.1
     - torchvision==0.14.1
+    - tqdm==4.64.1
+    - yarl==1.8.2
 prefix: D:\Users\qrno9\miniconda3\envs\pokemon
