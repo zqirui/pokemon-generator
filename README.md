@@ -15,3 +15,7 @@ Update Anaconda Environment YML: `conda env export > pokemon-generator.yml`
 Currently using the models from Lightning-Bolts has compatibility issues with Pytorch Lightnings Base Logger implementation.
 Some name change of the BaseLogger causes import errors, which is currently being adressed: [Github Issue On Lightning Bolts](https://github.com/Lightning-AI/lightning-bolts/issues/962). To Fix the import error temporarily apply the [Suggested Fix](https://github.com/Lightning-AI/lightning-bolts/pull/965/files#diff-ffde2f26ed0c98921e4ec6551e20f8ba4a418bb468e6777af13df411ecedc514) in `*\miniconda3\envs\pokemon\Lib\site-packages\pl_bolts\callbacks\data_monitor.py`
 to run the VAE.ipynb 
+
+# See Logs in Tensorboard after Training
+
+`tensorboard --logdir=lightning_logs/`
