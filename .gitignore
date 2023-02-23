@@ -168,3 +168,6 @@ cifar-10*.*
 
 # Pokemon image data folder
 data/
+
+# MNIST downloaded data
+MNIST/
