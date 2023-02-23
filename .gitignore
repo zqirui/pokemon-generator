@@ -165,3 +165,6 @@ lightning_logs/
 # CIFAR-10 batch files
 cifar-10-batches-py/
 cifar-10*.*
+
+# Pokemon image data folder
+data/
