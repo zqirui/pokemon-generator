@@ -171,3 +171,7 @@ data/
 
 # MNIST downloaded data
 MNIST/
+
+# Any gifs or weight data
+*.gif
+*.pt 
